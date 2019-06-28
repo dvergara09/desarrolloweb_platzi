@@ -7,6 +7,11 @@
     <title>Portafolio</title>
     <link rel="icon" type="image/png" href="images/favicon.png">
 </head>
+<style>
+    html{
+        scroll-behavior: smooth; /**Para crear un efecto de scroll*/
+    }
+</style>
 <body>
     <!-- Menu -->
     <header>
@@ -17,13 +22,13 @@
             <nav>
                 <ol>
                     <li>
-                        <a href="">Portafolio</a>
+                        <a href="#portafolio">Portafolio</a>
                     </li>
                     <li>
-                        <a href="">Experiencia</a>
+                        <a href="#eventos">Experiencia</a>
                     </li>
                     <li>
-                        <a href="">Trabajemos juntos</a>
+                        <a href="#contacto">Trabajemos juntos</a>
                     </li>
                 </ol>
             </nav>
@@ -35,7 +40,7 @@
         <img src="images/hero.jpg" alt="Imagen de portada" width="500px" height="300px">
     </section>
     <!-- Portafolio -->
-    <section>
+    <section id="portafolio">
         <h2>Proyectos destacados</h2>
         <article>
             <h3>Platzi video</h3>
@@ -47,7 +52,7 @@
         </article>
     </section>
     <!-- Eventos -->
-    <section>
+    <section id="eventos">
         <h2>Mas sobre mi experiencia</h2>
         <article>
             <figure>
@@ -55,10 +60,11 @@
             </figure>
             <h3>PlatziConf Mexico 2018</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus velit neque rerum omnis maxime? Temporibus quis sit incidunt, officiis doloribus soluta, minus reprehenderit consectetur modi quod, nihil possimus expedita numquam.</p>
-            <a href="">Ver platica</a>
+            <a href="https://www.youtube.com/watch?v=BIS7cWGgJg0" target="_blank">Ver platica</a>
+            <!-- _blank sirve para abrir el enlace en otra pagina -->
         </article>
     </section>
-    <section>
+    <section id="contacto">
         <form action="">
             <!-- <label for="email">Dejame tu email</label> -->
             <!-- El label nos permite poner la descripcion del campo
