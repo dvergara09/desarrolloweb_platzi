@@ -1,0 +1,22 @@
+/* Reglas:
+    selectores:identifican a uno o mas elementos dentro del html
+    declaraciones: todo lo que hacemos con el selector
+    propiedades: cosas particulares que podemos hacer
+    valores: lo que espera recibir como variable las propiedades
+*/
+
+/* 
+    header: selector 
+    {background: pink;} : declaracion
+    background: propiedad
+    pink: valor
+*/
+/*selector de etiqueta: hace referencia al nombre de la etiqueta que queremos manipular*/
+header{
+    background: pink;
+}
+/* selector descendente: un elemento hijo de algun otro elemento */
+/* body header div nav ol li a{} */
+/* selector de clase y id: 
+    Clase: atributo dentro de HTML class="", se pueden multiplicar a lo largo de website, se identifican con .clase    
+    Id: son unicos dentro del web id="", se identifican con #id */
