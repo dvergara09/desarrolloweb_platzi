@@ -22,3 +22,6 @@
     Id: son unicos dentro del web id="", se identifican con #id */
 
 /*ESTILOS DEL PROYECTO*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
