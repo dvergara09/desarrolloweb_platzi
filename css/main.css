@@ -12,11 +12,13 @@
     pink: valor
 */
 /*selector de etiqueta: hace referencia al nombre de la etiqueta que queremos manipular*/
-header{
+/* header{
     background: pink;
-}
+} */
 /* selector descendente: un elemento hijo de algun otro elemento */
 /* body header div nav ol li a{} */
 /* selector de clase y id: 
     Clase: atributo dentro de HTML class="", se pueden multiplicar a lo largo de website, se identifican con .clase    
     Id: son unicos dentro del web id="", se identifican con #id */
+
+/*ESTILOS DEL PROYECTO*/
