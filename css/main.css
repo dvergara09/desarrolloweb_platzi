@@ -179,6 +179,87 @@ figure{
     width: 500px;
 }
 
+.events{
+    display: flex;
+}
+.event{
+    /* border: 1px solid red; */
+    margin: 10px;
+    width: 480px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #f4fbff;
+}
+.event img{
+    width: 480px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.event-detail{
+    margin: 20px 40px;
+    background-color: white;
+    margin-top: -40px;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+}
+
+.event-description{
+    text-align: left;
+}
+
+.event-list-title{
+    margin-left: 20px;
+}
+
+.event-url{
+    border: 1px solid;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: #056fff;
+    border-radius: 5px;
+
+}
+
+.contact{
+    background-color: #056fff;
+    color: white;
+    height: 150px;
+    display: flex;
+    align-items: center;
+
+}
+
+.social{
+    border: 1px solid red;
+}
+
+.social-link{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    border: 1px solid white;
+    background-size: 50px 50px;
+}
+
+.social-link.twitter{
+    background-image: url('../images/twitter.svg');
+}
+
+.social-link.facebook{
+    background-image: url('../images/facebook.svg');
+}
+
+.social-link.github{
+    background-image: url('../images/github.svg');
+}
+
+.social-link.instagram{
+    background-image: url('../images/instagram.svg');
+}
+
 .footer{
     color: white;
     display: flex;
