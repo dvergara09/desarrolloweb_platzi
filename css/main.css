@@ -223,24 +223,55 @@ figure{
 
 }
 
+.form-email input{
+    border-color: gray;
+    padding: 10px 20px 10px 25px;
+    background-image: url('../images/envelope.svg');
+    background-size:  15px 15px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5px;
+    border-radius: 5px;
+    border-style: solid;
+}
+
+.form-email button{
+    display: block;
+    margin-top: 10px;
+    background: transparent;
+    color:white;
+    padding: 10px 0;
+    border-radius: 5px;
+    width: 100px;
+    /* margin: 10px auto 0; */
+
+}
+
+.form-email h3{
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
 .contact{
     background-color: #056fff;
     color: white;
     height: 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 
 }
 
 .social{
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .social-link{
     display: inline-block;
     height: 50px;
     width: 50px;
-    border: 1px solid white;
+    /* border: 1px solid white; */
+    margin: 0 10px;
     background-size: 50px 50px;
 }
 
